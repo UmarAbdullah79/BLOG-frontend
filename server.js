@@ -4,7 +4,7 @@ import axios from "axios";
 
 const app = express();
 const port = 3000;
-const API_URL = "https://blog-backend-production-7780.up.railway.app/";
+const API_URL = "https://blog-backend-production-7780.up.railway.app";
 
 app.use(express.static("public"));
 
